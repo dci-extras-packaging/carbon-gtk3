@@ -1,0 +1,20 @@
+Source: carbon-gtk3
+Section: unknown
+Priority: optional
+Maintainer: Scarlett Moore <sgmoore@kde.org>
+Build-Depends: cmake,
+               debhelper (>=12),
+               libcairo2-dev,
+               libgtk3.0-dev,
+               libx11-dev,
+               pkg-config,
+               pkg-kde-tools
+Standards-Version: 4.4.0
+Homepage: https://github.com/ds9-extras/carbon-gtk3
+
+Package: carbon-gtk3
+Architecture: any
+Multi-Arch: same
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: carbon-gtk3 theme
+ This package contains the carbon-gtk3 theme
