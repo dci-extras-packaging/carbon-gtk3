@@ -5,7 +5,7 @@ Maintainer: Scarlett Moore <sgmoore@kde.org>
 Build-Depends: cmake,
                debhelper (>=12),
                libcairo2-dev,
-               libgtk3.0-dev,
+               libgtk-3-dev,
                libx11-dev,
                pkg-config,
                pkg-kde-tools
